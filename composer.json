@@ -1,0 +1,32 @@
+{
+  "name": "rattt/scanner",
+  "description": "Scan Urls from a CSV file report inaccessible URLs",
+  "keywords": ["url", "scanner", "csv"],
+  "homepage": "http://example.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Moroz",
+      "homepage": "https://github.com/Rattt",
+      "role":  "Developer"
+    }
+  ],
+  "support": {
+    "email": "genom-1990@yandex.ru"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "~6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.3"
+  },
+  "suggest": {
+    "league/csv": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Oreilly\\ModernPHP\\": "src/"
+    }
+  }
+}
